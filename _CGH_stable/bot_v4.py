@@ -1,30 +1,32 @@
 import cv2 
 import numpy as np
 import pyautogui
-import win32api, win32con
 import time
 import keyboard
-
+import mouse
 
 const = 10 # alle Center coordinates are 20 pixels appart (only in 1440p) 
 
 area = (147,63,1682,1322)
-#
+
 done_area = (60,36,56,56)
 
 
-#clicks left on the coodinate tuple given
 def l_click(xy):
-    win32api.SetCursorPos((xy))
-    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTDOWN,0,0)
+    x, y = xy
+    mouse.move(x, y, absolute= True)
+    mouse.click(button='left')
     time.sleep(0.01)
-    win32api.mouse_event(win32con.MOUSEEVENTF_LEFTUP,0,0)
-#clicks right on the coodinate tuple given
+
+
 def r_click(xy):
-    win32api.SetCursorPos((xy))
-    win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTDOWN,0,0)
+    x, y = xy
+    mouse.move(x, y, absolute= True)
+    mouse.click(button='right')
     time.sleep(0.01)
-    win32api.mouse_event(win32con.MOUSEEVENTF_RIGHTUP,0,0)
+
+
+
 
 def isValid(screen, m, n, x, y, prevC, newC):
     if x<0 or x>= m\
