@@ -15,7 +15,7 @@ To use it the script effectively the game should:
 
 Searching collors can't yet be chanched, witch I plan on changing in the Future.
 
-To exit hold v till the finished popup pops up.
+To exit hold v till the finished pop-up pops up.
 
 
 
