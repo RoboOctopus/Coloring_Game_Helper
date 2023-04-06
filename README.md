@@ -20,5 +20,4 @@ To exit hold v till the finished pop-up pops up.
 
 
 KNOWN PROBLEMS:
-    - The script sometomes gets stuck clicking single objects, hold the "c" key for it to switch modes.
-    - The scipt can get hung up on shades of green that look very similar, try to right click a grey block. If that doesnt work press esc and the scipt will exit.
+	- Non yet
