@@ -6,10 +6,10 @@ This script was written by RoboOctopus on GitHub / DasDreieck#4235 on Discord
 I wrote this little script for fun and to challange myself. 
 
 
-To use it the script effectively the game should:
-    - look like "example.png"
-    - be on the first Monitor
-    - be in fullscreen
+To use it the script effectively the game should: 
+	- look like "example.png"
+	- be on the first Monitor
+	- be in fullscreen
 
 
 
