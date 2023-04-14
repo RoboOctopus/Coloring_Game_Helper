@@ -11,7 +11,6 @@ To use it the script effectively the game should:
 
 
 
-
 Searching collors can't yet be chanched witch I plan on changing in the Future.
 
 To exit hold v till the finished popup pops up.
@@ -23,3 +22,5 @@ KNOWN PROBLEMS:
 
 
 Dependencies : cv2,pyautogui,time,keyboard,os,mouse,bot_v4,numpy as np,tkinter and ttkbootstrap
+
+To run the script onpen cmd in the correct file path and paste "python3 _main_.py".
