@@ -10,7 +10,6 @@ To use it the script effectively the game should:
     - be in fullscreen
 
 
-
 Searching collors can't yet be chanched witch I plan on changing in the Future.
 
 To exit hold v till the finished popup pops up.
@@ -18,8 +17,7 @@ To exit hold v till the finished popup pops up.
 
 
 KNOWN PROBLEMS:
-    - The script sometomes gets stuck clicking single objects, hold the "c" key for it to switch modes.
-    - The scipt can get hung up on shades of green that look very similar, try to right click a grey block. If that doesnt work press esc and the scipt will exit.
+    - Nan
 
 
-Dependencies : cv2,pyautogui,time,keyboard,os,mouse,bot_v4,os,json,numpy as np,tkinter as tk,ttkbootstrap as ttk,from tkinter import messagebox
+Dependencies : cv2,pyautogui,time,keyboard,os,mouse,bot_v4,json,numpy as np,tkinter as tk,ttkbootstrap as ttk,from tkinter import messagebox
