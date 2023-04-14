@@ -23,3 +23,6 @@ KNOWN PROBLEMS:
 Dependencies : cv2,pyautogui,time,keyboard,os,mouse,bot_v4,numpy as np,tkinter and ttkbootstrap
 
 To run the script onpen cmd in the correct file path and paste "python3 _main_.py".
+
+
+If you have any questions, feel free to ask me on Discord.
