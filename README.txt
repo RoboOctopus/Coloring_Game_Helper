@@ -20,7 +20,7 @@ KNOWN PROBLEMS:
     - Nan
 
 
-Dependencies : opencv-python,pyautogui,time,keyboard,mouse,numpy,tkinter,ttkbootstrap
+Dependencies : opencv-python,pyautoguikeyboard,mouse,numpy,ttkbootstrap
 
 To run the script onpen cmd in the correct file path and paste "python3 _main_.py".
 
