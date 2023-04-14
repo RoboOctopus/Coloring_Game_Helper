@@ -14,7 +14,7 @@ const = 10 # alle Center coordinates are 20 pixels appart
 
 #area = (147,62,1682,1324)
 
-color = (0,0,600,100)
+color = (0,0,600,70)
 
 
 #clicks left on the coodinate tuple given
@@ -233,16 +233,9 @@ def bot(dir_path, res_x,res_y):
         size_x, size_y =size(liste_all, area)
 
 
-
         #calls looker function 
         clicks = looker(liste_green,size_x, size_y)
-  
 
-        #print(clicks)
-
-
-        #math_finish = time.perf_counter()
-        #print(f'math: {round(math_finish-c_start,2)} s')
 
         #clicks all coordiantes in list "clicks"
         for num in range(len(clicks)):
@@ -252,13 +245,13 @@ def bot(dir_path, res_x,res_y):
                 return {round(finish-start,2)}
         
 
+        check_colorchange = pyautogui.locateCenterOnScreen(last_color,region=(color), confidence= 0.90)
+        print(f'last: {check_colorchange}')
         locate_green = pyautogui.locateCenterOnScreen(green,region=(area), confidence= 0.99)
-        #pyautogui.screenshot(region=(color)).save(f'{dir_path}\images\last_color.png')
-        check_colorchange = pyautogui.locateCenterOnScreen(last_color,region=(color), confidence= 0.99)
-
+        print(locate_green)
         #waiting for the game to update
-        while locate_green != None and check_colorchange != None:
-            check_colorchange = pyautogui.locateCenterOnScreen(last_color,region=(color), confidence= 0.99)
+        while locate_green != None and check_colorchange == None:
+            check_colorchange = pyautogui.locateCenterOnScreen(last_color,region=(color), confidence= 0.90)
             locate_green = pyautogui.locateCenterOnScreen(green,region=(area), confidence= 0.99)
             #exit
             if keyboard.is_pressed('v') == True:
@@ -266,7 +259,7 @@ def bot(dir_path, res_x,res_y):
                 return {round(finish-start,2)}
             pass
 
-
+        #refreshes last_color
         pyautogui.screenshot(region=(color)).save(f'{dir_path}\images\last_color.png')
 
 
