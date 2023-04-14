@@ -9,12 +9,11 @@ To use it the script effectively the game should:
     - be on the first Monitor
     - be in fullscreen
 
-
+Press the Start button if the is open and a Picture is ready to be colored.
 
 Searching collors can't yet be chanched witch I plan on changing in the Future.
 
 To exit hold v till the finished popup pops up.
-
 
 
 KNOWN PROBLEMS:
