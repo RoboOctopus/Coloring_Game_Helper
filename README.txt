@@ -10,6 +10,8 @@ To use it the script effectively the game should:
     - be in fullscreen
 
 
+
+
 Searching collors can't yet be chanched witch I plan on changing in the Future.
 
 To exit hold v till the finished popup pops up.
@@ -20,4 +22,4 @@ KNOWN PROBLEMS:
     - Nan
 
 
-Dependencies : cv2,pyautogui,time,keyboard,os,mouse,bot_v4,json,numpy as np,tkinter as tk,ttkbootstrap as ttk,from tkinter import messagebox
+Dependencies : cv2,pyautogui,time,keyboard,os,mouse,bot_v4,numpy as np,tkinter and ttkbootstrap
