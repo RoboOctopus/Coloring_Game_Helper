@@ -17,7 +17,7 @@ To exit hold v till the finished popup pops up.
 
 
 KNOWN PROBLEMS:
-    - Nan
+    - Skips the waiting step and clicks the blocks again while waiting for the game to load. Can cause a crash if the image is too big.
 
 
 Dependencies : opencv-python,pyautoguikeyboard,mouse,numpy,ttkbootstrap
