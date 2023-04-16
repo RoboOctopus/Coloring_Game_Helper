@@ -6,8 +6,11 @@ import os
 from tkinter import messagebox
 
 
-set_res_x = 2560
-set_res_y = 1440
+screen = (2560,1440)
+
+
+set_res_x = screen[0]
+set_res_y = screen[1]
 
 
 
